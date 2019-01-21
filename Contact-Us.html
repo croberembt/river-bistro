@@ -9,6 +9,20 @@ This is a project for The Software Guild
 
   <head>
     <title> River Bistro </title>
+
+    <style>
+      .required {
+      font-weight: bold
+      }
+      form {
+        font-family: 'Rubik', sans-serif
+      }
+    </style>
+
+    <link href="https://fonts.googleapis.com/css?family=Rubik|Staatliches" rel="stylesheet">
+    <link href="Styles/restaurantStyles.css" rel="stylesheet" type="text/css" />
+    <style>
+    </style>
   </head>
 
   <body>
@@ -16,34 +30,30 @@ This is a project for The Software Guild
     <header>
       <p> Contact Us </p>
     </header>
-    <hr />
 
     <h1> River Bistro </h1>
 
-    <hr />
-
     <nav>
-      <p> <a href="home.html">Home</a> </p>
+      <a href="home.html"> Home </a> &nbsp
+
+      <a href="menu.html"> Menu </a> &nbsp
+
+      <a href="contact-us.html"> Contact Us </a>
     </nav>
 
-    <nav>
-      <p> <a href="menu.html">Menu</a> </p>
-    </nav>
-
-    <nav>
-      <p> <a href="contact-us.html">Contact Us</a> </p>
-    </nav>
-
-    <hr />
+    <br />
 
     <form action="fakePage.html" method="POST">
 
+          <div class="required">
+
             <label for="name">Name:</label> <br />
-            <input type="text" id="name" name="name"> <br />
+            <input type="text" id="name" name="name" required> <br />
             <label for="email">Email:</label> <br />
-            <input type="text" id="email" name="email"> <br />
+            <input type="text" id="email" name="email" required> <br />
             <label for="phone">Phone:</label> <br />
-            <input type="text" id="phone" name="phone"> <br />
+            <input type="text" id="phone" name="phone" required> <br />
+              </div>
             <br />
 
             Reason for Inquiry: <br />
@@ -75,7 +85,7 @@ This is a project for The Software Guild
             <input type="submit" name="submit" value="Send Request"> <br />
      </form>
 
-     <hr />
+     <br />
 
      <footer>
        <p> 111 River Road, Saint Paul, MN, 55102 <br />

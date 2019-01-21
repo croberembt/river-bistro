@@ -1,0 +1,54 @@
+/*
+Creator: C. R. Oberembt
+Date created: 01/20/2019
+Date last modified: 01/20/2019
+*/
+
+header, footer {
+  background-color: Black;
+  color: White;
+  font-family: 'Rubik', sans-serif;
+  padding: 20px 10px 20px 10px
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: SlateGrey;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px 10px 20px 10px;
+  font-family: 'Staatliches', cursive;
+}
+
+/*   Visited links appear in a different color than their default state.
+When you hover over a link, the text is bold. This should only be when hovering. Otherwise, the text should be the normal thickness.
+Active links should not be underlined. */
+
+nav {
+  background-color: Black;
+  padding: 20px 10px 20px 10px;
+}
+
+a {
+  color: hotpink;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+a:visited {
+  color: White;
+}
+
+/* a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+} */

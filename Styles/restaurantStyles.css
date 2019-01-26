@@ -1,7 +1,7 @@
 /*
 Creator: C. R. Oberembt
 Date created: 01/19/2019
-Date last modified: 01/21/2019
+Date last modified: 01/25/2019
 */
 
 header, footer {
@@ -23,12 +23,13 @@ h1 {
   font-family: 'Staatliches', cursive;
 }
 
-nav {
-  background-color: DimGray;
-  padding: 20px 10px 20px 10px;
+#bootstrap-overrides a.active {
+  background-color: Black;
 }
 
-#bootstrap-overrides .nav-link {
+#bootstrap-overrides nav {
+  background-color: DimGray;
+  padding: 20px 10px 20px 10px;
 }
 
 #bootstrap-overrides a {
@@ -44,5 +45,11 @@ nav {
 }
 
 #bootstrap-overrides a:visited {
-  color: #0d2618;
+  color: White;
+}
+
+#bootstrap-overrides div.active, #bootstrap-overrides .carousel-inner, #bootstrap-overrides .carousel-slide, #bootstrap-overrides #restaurant-carousel, #bootstrap-overrides .carousel-item, #bootstrap-overrides #carousel-text-1, #bootstrap-overrides #carousel-text-2, #bootstrap-overrides #carousel-text-3 {
+  background-color: Black;
+  color: Red;
+  padding: 3px;
 }
